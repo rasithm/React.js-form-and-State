@@ -1,14 +1,25 @@
-import React from 'react';
+import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Colorchange from './component2/FavColor';
+import Carclass from './component2/Carclass';
+import Scooter from './component2/Scooter';
+import List from './component2/List';
+import Timer from './component2/Timer';
+import MyForm from './formComponent/MyForm';
+
+
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <>
+    <MyForm/>
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function
